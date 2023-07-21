@@ -9,4 +9,4 @@ const getDietsH = async(req,res)=>{
     }
 };
 
-module.exports=getDietsH;
+module.exports=getDietsH; 
