@@ -1,0 +1,133 @@
+.container{
+  margin:  50px;
+  padding: 70px 50px;
+  background-color: #ffffff91;
+}
+
+.error{
+  color:  red;
+  font-weight: 1000;
+  font-family:cursive;
+  position: relative;
+  top:-30px;
+}
+
+.formoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.formDiv{
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .formLabel {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    pointer-events: none;
+    transition: all 0.3s ease-out;
+    color: #888;
+    font-family: cursive;
+  }
+  
+  .formInput {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease-out;
+  }
+  
+  .formInput:focus,
+  .formInput:not(:placeholder-shown) {
+    border-color: #141414;
+  }
+  
+  .formInput:focus + .formLabel,
+  .formInput:not(:placeholder-shown) + .formLabel {
+    top: 0;
+    font-size: 12px;
+    color: #30a807;
+  }
+  
+  .formSelect {
+    width: 100px;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .formCheckbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .formButton {
+    width: 100px;
+    height: 30px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .formButton:disabled {
+    background-color: #f48282;
+    cursor: not-allowed;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    font-size: larger;
+    font-family: cursive;
+    min-width: 200px;
+    padding: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  .diets{
+    padding: 10px;
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+  }
+
+  .dropdown:hover .dropdownContent {
+    display: block;
+    transform: translateY(-60%);
+    color: white;
+    background-color: #090907d9;
+  }
+  
+  .dropdownContent label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .dropdownContent input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .dropdownContent label:hover {
+    color: #ff6347;
+  }
+  
+  .dropdownContent:after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent #f9f9f9 transparent;
+  }

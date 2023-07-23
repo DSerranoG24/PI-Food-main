@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.containerPags{
+    padding: 0px;
+}
+
+.actualPage{
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    background-color: rgb(221, 219, 219);
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 10px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnFptMHHSiwebIpUgcpKH4F_XnS-UWI-7ntQ&usqp=CAU);
+
+}
+
+.page{
+    font-size: 16px;
+    padding: 10px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOfpVGlMATlBuau_-4XYH5lIKMV69weaRrBA&usqp=CAU);
+}

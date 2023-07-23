@@ -1,0 +1,10 @@
+export const GET_RECIPES = "GET_RECIPES";
+export const GET_RECIPE_BY_ID = "GET_RECIPE_BY_ID";
+export const CLEAN_DETAIL = "CLEAN_DETAIL";
+export const GET_DIETS = "GET_DIETS";
+export const FILTER_BY_ORIGIN = "FILTER_BY_ORIGIN";
+export const ORDER_SCORE = "ORDER_SCORE";
+export const ALPHABET = 'ALPHABET';
+export const FILTER_DIETS = 'FILTER_DIETS';
+export const GET_RECIPES_COPY = 'GET_RECIPES_COPY';
+export const HELTHIER_THAN = 'HELTHIER_THAN';

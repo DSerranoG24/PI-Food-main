@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+.back{
+    position: absolute;
+    top: 55px; 
+    left: 39%;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: large;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border:transparent;
+    background-color: rgb(199, 133, 18);
+}
+.back:hover{
+    background-color: rgb(142, 94, 12);
+}

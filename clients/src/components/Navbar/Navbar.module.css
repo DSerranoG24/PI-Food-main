@@ -1,0 +1,78 @@
+.navbarContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://us.123rf.com/450wm/sn333g/sn333g1802/sn333g180200152/95335163-comida-r%C3%A1pida-vector-oscuro-de-patrones-sin-fisuras-o-fondo.jpg);
+  padding: 10px ;
+  border-radius: 20px; 
+  
+  }
+
+  .navbarLogo{
+    margin-right: 15px;
+  }
+  
+  .logoImage {
+    width: 100px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: auto;
+    border-radius: 50%;
+    opacity: 0.8 ;
+  }
+  
+  
+  .navbarForm {
+    padding: 10px;
+    background-color: rgb(247, 247, 135) ;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    border-radius: 10%;
+  }
+
+  .navbarForm > *:not(:last-child) {
+    margin-right: 10px; /* Ajusta el valor según el espacio deseado */
+  }
+  
+  .navbarForm label {
+    color: rgb(14, 15, 14);
+    margin-right: 10px;
+    font-weight: bold;
+    font-family:cursive;
+    font-size: medium;
+  }
+  
+  .navbarForm select,
+  .navbarForm input {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(108, 49, 49, 0.766); /* Agrega transparencia al fondo */
+    color: #fffdfd;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .navbarForm select {
+    width: 120px; 
+  }
+  
+  .navbarForm input {
+    background-color: transparent;
+    color: rgb(6, 6, 6);
+    border: 1px solid rgb(10, 9, 9);
+  }
+  
+  .navbarForm button {
+    padding: 8px 20px;
+    border-radius: 20px;
+    background-color: #9e5347; /* Amarillo dorado */
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbarForm button:hover {
+    background-color: #6f3931;
+  }
